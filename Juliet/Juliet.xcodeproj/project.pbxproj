@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1800077B27B40E4A00A46DB8 /* StoreObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800077A27B40E4A00A46DB8 /* StoreObserver.swift */; };
+		18037DA327B0088C007673F1 /* dice.json in Resources */ = {isa = PBXBuildFile; fileRef = 18037DA227B0088B007673F1 /* dice.json */; };
+		18037DA527B0095F007673F1 /* social.json in Resources */ = {isa = PBXBuildFile; fileRef = 18037DA427B0095F007673F1 /* social.json */; };
+		18037DA727B0174F007673F1 /* GameOverViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18037DA627B0174F007673F1 /* GameOverViewControllerExtensions.swift */; };
+		18037DA927B01941007673F1 /* GameOverHandlerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18037DA827B01941007673F1 /* GameOverHandlerExtensions.swift */; };
+		182CAAA527AE8A8D004B3D4F /* GameAlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CAAA427AE8A8D004B3D4F /* GameAlertHandler.swift */; };
+		182CAAA727AE8CB5004B3D4F /* GameAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CAAA627AE8CB5004B3D4F /* GameAlertViewController.swift */; };
+		182CAAA927AE8D15004B3D4F /* GameAlertSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CAAA827AE8D15004B3D4F /* GameAlertSwiftUI.swift */; };
+		182CAAAB27AE978B004B3D4F /* GameAlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CAAAA27AE978B004B3D4F /* GameAlertModel.swift */; };
+		182F1B7B27AAD66A0061562C /* WordleViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F1B7A27AAD66A0061562C /* WordleViewControllerExtensions.swift */; };
+		182F1B7E27AAE1C90061562C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F1B7D27AAE1C90061562C /* GameViewController.swift */; };
+		182F1B8127AAE7580061562C /* WordleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F1B8027AAE7580061562C /* WordleGame.swift */; };
+		1836AB7227BB40D400044EB2 /* StartNewGameSessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836AB7127BB40D400044EB2 /* StartNewGameSessionResponse.swift */; };
+		1839E40127B4C11E0059987D /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839E40027B4C11E0059987D /* ShopViewController.swift */; };
+		1839E40327B4C18A0059987D /* ShopSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839E40227B4C18A0059987D /* ShopSwiftUIView.swift */; };
+		1839E40527B4C4670059987D /* ShopSwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839E40427B4C4670059987D /* ShopSwiftUIViewModel.swift */; };
+		1839E40727B4E7620059987D /* lightning.json in Resources */ = {isa = PBXBuildFile; fileRef = 1839E40627B4E7620059987D /* lightning.json */; };
+		1839E40B27B5434C0059987D /* young.json in Resources */ = {isa = PBXBuildFile; fileRef = 1839E40A27B5434C0059987D /* young.json */; };
+		1839E40D27B55F850059987D /* ShopViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839E40C27B55F850059987D /* ShopViewControllerExtensions.swift */; };
+		183C1B7727B6143C00A49C6C /* EnergyStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C1B7627B6143C00A49C6C /* EnergyStatusView.swift */; };
+		183C1B7927B633E800A49C6C /* UserSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C1B7827B633E800A49C6C /* UserSessionManager.swift */; };
+		183C1B7C27B6388700A49C6C /* WordleMainMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C1B7B27B6388700A49C6C /* WordleMainMenuViewModel.swift */; };
+		183C1B7E27B64B7C00A49C6C /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C1B7D27B64B7C00A49C6C /* IntExtensions.swift */; };
+		183C1B8327B6B07900A49C6C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C1B8227B6B07900A49C6C /* Reachability.swift */; };
+		183C1B8627B6D74900A49C6C /* WordleViewControllerAdMobExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C1B8527B6D74900A49C6C /* WordleViewControllerAdMobExtensions.swift */; };
+		184BB5C727AF850B000AF770 /* allowedWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 184BB5C627AF850B000AF770 /* allowedWords.txt */; };
+		184BB5CB27AF966C000AF770 /* GameOverHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB5CA27AF966C000AF770 /* GameOverHandler.swift */; };
+		184BB5CF27AF96C4000AF770 /* GameOverSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB5CE27AF96C4000AF770 /* GameOverSwiftUIView.swift */; };
+		184BB5D127AF96E8000AF770 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB5D027AF96E8000AF770 /* GameOverViewController.swift */; };
+		184BB5D427AFB967000AF770 /* wrong.json in Resources */ = {isa = PBXBuildFile; fileRef = 184BB5D227AFB967000AF770 /* wrong.json */; };
+		184BB5D527AFB967000AF770 /* correct.json in Resources */ = {isa = PBXBuildFile; fileRef = 184BB5D327AFB967000AF770 /* correct.json */; };
+		184BB5D727AFBEDE000AF770 /* WordTempModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BB5D627AFBEDE000AF770 /* WordTempModel.swift */; };
+		185223CB27ABD5DE005EEE91 /* GamePauseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185223CA27ABD5DE005EEE91 /* GamePauseHandler.swift */; };
+		185223CD27ABD79F005EEE91 /* GameViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185223CC27ABD79F005EEE91 /* GameViewControllerExtensions.swift */; };
+		185223D327ABE738005EEE91 /* restart.json in Resources */ = {isa = PBXBuildFile; fileRef = 185223D227ABE738005EEE91 /* restart.json */; };
+		185223D727AC15DF005EEE91 /* GamePauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185223D627AC15DF005EEE91 /* GamePauseViewController.swift */; };
+		185223D927AC3119005EEE91 /* GamePauseSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185223D827AC3119005EEE91 /* GamePauseSwiftUI.swift */; };
+		185223DD27AC3B0F005EEE91 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 185223DC27AC3B0F005EEE91 /* home.json */; };
+		185223DF27AC3E2A005EEE91 /* play.json in Resources */ = {isa = PBXBuildFile; fileRef = 185223DE27AC3E2A005EEE91 /* play.json */; };
+		185223E327AC3F95005EEE91 /* playLoad.json in Resources */ = {isa = PBXBuildFile; fileRef = 185223E227AC3F95005EEE91 /* playLoad.json */; };
+		18579AC427AA5E57006CDA60 /* gift.json in Resources */ = {isa = PBXBuildFile; fileRef = 18579AC327AA5E57006CDA60 /* gift.json */; };
+		18579AC627AA60BB006CDA60 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18579AC527AA60BB006CDA60 /* LottieView.swift */; };
+		18579AC827AA63C2006CDA60 /* puzzle.json in Resources */ = {isa = PBXBuildFile; fileRef = 18579AC727AA63C2006CDA60 /* puzzle.json */; };
+		18579AD027AA7EFD006CDA60 /* owl.json in Resources */ = {isa = PBXBuildFile; fileRef = 18579ACF27AA7EFD006CDA60 /* owl.json */; };
+		18579AD227AA7F9D006CDA60 /* boyStudy.json in Resources */ = {isa = PBXBuildFile; fileRef = 18579AD127AA7F9D006CDA60 /* boyStudy.json */; };
+		18579AD427AA804E006CDA60 /* mail.json in Resources */ = {isa = PBXBuildFile; fileRef = 18579AD327AA804E006CDA60 /* mail.json */; };
+		18579AD627AA83C9006CDA60 /* think.json in Resources */ = {isa = PBXBuildFile; fileRef = 18579AD527AA83C9006CDA60 /* think.json */; };
+		185CAB4927A98109000A902C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CAB4827A98109000A902C /* AppDelegate.swift */; };
+		185CAB4B27A98109000A902C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CAB4A27A98109000A902C /* SceneDelegate.swift */; };
+		185CAB4D27A98109000A902C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CAB4C27A98109000A902C /* ViewController.swift */; };
+		185CAB5227A9810B000A902C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185CAB5127A9810B000A902C /* Assets.xcassets */; };
+		185CAB5527A9810B000A902C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185CAB5327A9810B000A902C /* LaunchScreen.storyboard */; };
+		185CAB5D27A9845A000A902C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CAB5C27A9845A000A902C /* MainTabBarViewController.swift */; };
+		185CAB5F27A98965000A902C /* WordleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CAB5E27A98965000A902C /* WordleViewController.swift */; };
+		185ED01027ACD70C005F85E5 /* GamePauseViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED00F27ACD70C005F85E5 /* GamePauseViewControllerExtensions.swift */; };
+		185ED01327ACDA55005F85E5 /* GamePauseHandlerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED01227ACDA55005F85E5 /* GamePauseHandlerExtensions.swift */; };
+		185ED01C27ACF723005F85E5 /* Alphabets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED01B27ACF723005F85E5 /* Alphabets.swift */; };
+		185ED01F27AD3173005F85E5 /* WordleGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ED01E27AD3173005F85E5 /* WordleGameViewModel.swift */; };
+		18681AB327B8D9AA0057B9C0 /* GamePauseAndGameOverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18681AB227B8D9AA0057B9C0 /* GamePauseAndGameOverViewModel.swift */; };
+		18681AC027B8F0120057B9C0 /* NotificationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18681ABF27B8F0120057B9C0 /* NotificationExtensions.swift */; };
+		18681AC227B8FB4F0057B9C0 /* IAPManagerResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18681AC127B8FB4F0057B9C0 /* IAPManagerResponses.swift */; };
+		186B21F527AF76F400C5796D /* AllowedWordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B21F427AF76F400C5796D /* AllowedWordsModel.swift */; };
+		1870CE5E27BAC5B1007DB47E /* UserWinsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870CE5D27BAC5B1007DB47E /* UserWinsResponse.swift */; };
+		1875CDDA27B37582006B7620 /* GameViewControllerGoogleAdExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875CDD927B37582006B7620 /* GameViewControllerGoogleAdExtensions.swift */; };
+		1875CDDC27B387A6006B7620 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1875CDDB27B387A6006B7620 /* StoreKit.framework */; };
+		1875CDDF27B38914006B7620 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875CDDE27B38914006B7620 /* IAPManager.swift */; };
+		188FF66127AA3A2F0005DF48 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FF66027AA3A2E0005DF48 /* CustomColors.swift */; };
+		188FF66827AA49B70005DF48 /* WordleMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FF66727AA49B70005DF48 /* WordleMainMenu.swift */; };
+		189AE06927BA69BD00656408 /* DictionaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AE06827BA69BD00656408 /* DictionaryManager.swift */; };
+		18AEC82827B7B41100F3F07E /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC82727B7B41100F3F07E /* AdManager.swift */; };
+		18E4797427B2C0DF008EE9FE /* GoogleAdMobAdUnitIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4797327B2C0DF008EE9FE /* GoogleAdMobAdUnitIDModel.swift */; };
+		18EE82ED27AD9E1100716F17 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE82EC27AD9E1100716F17 /* ArrayExtensions.swift */; };
+		18F772EE27B0EDDF00CC47F7 /* AWSAPIGatewayURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F772ED27B0EDDF00CC47F7 /* AWSAPIGatewayURLs.swift */; };
+		18F772F227B0EEAD00CC47F7 /* AWSAPIAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F772F127B0EEAD00CC47F7 /* AWSAPIAuthToken.swift */; };
+		18F772F727B0F8E000CC47F7 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F772F627B0F8E000CC47F7 /* AuthenticationManager.swift */; };
+		18F772F927B0FA2C00CC47F7 /* GeneralRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F772F827B0FA2C00CC47F7 /* GeneralRequestManager.swift */; };
+		18F772FB27B1064000CC47F7 /* DefaultServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F772FA27B1064000CC47F7 /* DefaultServerResponse.swift */; };
+		18F772FE27B1159800CC47F7 /* SecretWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F772FD27B1159800CC47F7 /* SecretWordModel.swift */; };
+		18F7730027B123F600CC47F7 /* SecretWordFetchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F772FF27B123F600CC47F7 /* SecretWordFetchModel.swift */; };
+		18F7730227B124D100CC47F7 /* WordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7730127B124D100CC47F7 /* WordManager.swift */; };
+		5BDC65EE1F7714EDDC9F9970 /* Pods_Juliet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155D8CA2BC0BD317416C15E5 /* Pods_Juliet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		155D8CA2BC0BD317416C15E5 /* Pods_Juliet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Juliet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1800077A27B40E4A00A46DB8 /* StoreObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreObserver.swift; sourceTree = "<group>"; };
+		18037DA227B0088B007673F1 /* dice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dice.json; sourceTree = "<group>"; };
+		18037DA427B0095F007673F1 /* social.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = social.json; sourceTree = "<group>"; };
+		18037DA627B0174F007673F1 /* GameOverViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewControllerExtensions.swift; sourceTree = "<group>"; };
+		18037DA827B01941007673F1 /* GameOverHandlerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverHandlerExtensions.swift; sourceTree = "<group>"; };
+		181D995627BB55DA0067093E /* Juliet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Juliet.entitlements; sourceTree = "<group>"; };
+		182CAAA427AE8A8D004B3D4F /* GameAlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAlertHandler.swift; sourceTree = "<group>"; };
+		182CAAA627AE8CB5004B3D4F /* GameAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAlertViewController.swift; sourceTree = "<group>"; };
+		182CAAA827AE8D15004B3D4F /* GameAlertSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAlertSwiftUI.swift; sourceTree = "<group>"; };
+		182CAAAA27AE978B004B3D4F /* GameAlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAlertModel.swift; sourceTree = "<group>"; };
+		182F1B7A27AAD66A0061562C /* WordleViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleViewControllerExtensions.swift; sourceTree = "<group>"; };
+		182F1B7D27AAE1C90061562C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		182F1B8027AAE7580061562C /* WordleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleGame.swift; sourceTree = "<group>"; };
+		1836AB7127BB40D400044EB2 /* StartNewGameSessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNewGameSessionResponse.swift; sourceTree = "<group>"; };
+		1839E40027B4C11E0059987D /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		1839E40227B4C18A0059987D /* ShopSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSwiftUIView.swift; sourceTree = "<group>"; };
+		1839E40427B4C4670059987D /* ShopSwiftUIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSwiftUIViewModel.swift; sourceTree = "<group>"; };
+		1839E40627B4E7620059987D /* lightning.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lightning.json; sourceTree = "<group>"; };
+		1839E40A27B5434C0059987D /* young.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = young.json; sourceTree = "<group>"; };
+		1839E40C27B55F850059987D /* ShopViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewControllerExtensions.swift; sourceTree = "<group>"; };
+		183C1B7627B6143C00A49C6C /* EnergyStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyStatusView.swift; sourceTree = "<group>"; };
+		183C1B7827B633E800A49C6C /* UserSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionManager.swift; sourceTree = "<group>"; };
+		183C1B7B27B6388700A49C6C /* WordleMainMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleMainMenuViewModel.swift; sourceTree = "<group>"; };
+		183C1B7D27B64B7C00A49C6C /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		183C1B8227B6B07900A49C6C /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		183C1B8527B6D74900A49C6C /* WordleViewControllerAdMobExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleViewControllerAdMobExtensions.swift; sourceTree = "<group>"; };
+		184BB5C627AF850B000AF770 /* allowedWords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = allowedWords.txt; sourceTree = "<group>"; };
+		184BB5CA27AF966C000AF770 /* GameOverHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverHandler.swift; sourceTree = "<group>"; };
+		184BB5CE27AF96C4000AF770 /* GameOverSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverSwiftUIView.swift; sourceTree = "<group>"; };
+		184BB5D027AF96E8000AF770 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		184BB5D227AFB967000AF770 /* wrong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wrong.json; sourceTree = "<group>"; };
+		184BB5D327AFB967000AF770 /* correct.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = correct.json; sourceTree = "<group>"; };
+		184BB5D627AFBEDE000AF770 /* WordTempModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTempModel.swift; sourceTree = "<group>"; };
+		185223CA27ABD5DE005EEE91 /* GamePauseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseHandler.swift; sourceTree = "<group>"; };
+		185223CC27ABD79F005EEE91 /* GameViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerExtensions.swift; sourceTree = "<group>"; };
+		185223D227ABE738005EEE91 /* restart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restart.json; sourceTree = "<group>"; };
+		185223D627AC15DF005EEE91 /* GamePauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseViewController.swift; sourceTree = "<group>"; };
+		185223D827AC3119005EEE91 /* GamePauseSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseSwiftUI.swift; sourceTree = "<group>"; };
+		185223DC27AC3B0F005EEE91 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		185223DE27AC3E2A005EEE91 /* play.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = play.json; sourceTree = "<group>"; };
+		185223E227AC3F95005EEE91 /* playLoad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playLoad.json; sourceTree = "<group>"; };
+		18579AC327AA5E57006CDA60 /* gift.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gift.json; sourceTree = "<group>"; };
+		18579AC527AA60BB006CDA60 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		18579AC727AA63C2006CDA60 /* puzzle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = puzzle.json; sourceTree = "<group>"; };
+		18579ACF27AA7EFD006CDA60 /* owl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = owl.json; sourceTree = "<group>"; };
+		18579AD127AA7F9D006CDA60 /* boyStudy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boyStudy.json; sourceTree = "<group>"; };
+		18579AD327AA804E006CDA60 /* mail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mail.json; sourceTree = "<group>"; };
+		18579AD527AA83C9006CDA60 /* think.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = think.json; sourceTree = "<group>"; };
+		185CAB4527A98109000A902C /* Juliet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juliet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CAB4827A98109000A902C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185CAB4A27A98109000A902C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		185CAB4C27A98109000A902C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		185CAB5127A9810B000A902C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185CAB5427A9810B000A902C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185CAB5627A9810B000A902C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185CAB5C27A9845A000A902C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		185CAB5E27A98965000A902C /* WordleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleViewController.swift; sourceTree = "<group>"; };
+		185ED00F27ACD70C005F85E5 /* GamePauseViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseViewControllerExtensions.swift; sourceTree = "<group>"; };
+		185ED01227ACDA55005F85E5 /* GamePauseHandlerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseHandlerExtensions.swift; sourceTree = "<group>"; };
+		185ED01B27ACF723005F85E5 /* Alphabets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabets.swift; sourceTree = "<group>"; };
+		185ED01E27AD3173005F85E5 /* WordleGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleGameViewModel.swift; sourceTree = "<group>"; };
+		18681AB227B8D9AA0057B9C0 /* GamePauseAndGameOverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseAndGameOverViewModel.swift; sourceTree = "<group>"; };
+		18681ABF27B8F0120057B9C0 /* NotificationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtensions.swift; sourceTree = "<group>"; };
+		18681AC127B8FB4F0057B9C0 /* IAPManagerResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManagerResponses.swift; sourceTree = "<group>"; };
+		186B21F427AF76F400C5796D /* AllowedWordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowedWordsModel.swift; sourceTree = "<group>"; };
+		1870CE5D27BAC5B1007DB47E /* UserWinsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWinsResponse.swift; sourceTree = "<group>"; };
+		1875CDD927B37582006B7620 /* GameViewControllerGoogleAdExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerGoogleAdExtensions.swift; sourceTree = "<group>"; };
+		1875CDDB27B387A6006B7620 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1875CDDE27B38914006B7620 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		188FF66027AA3A2E0005DF48 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		188FF66727AA49B70005DF48 /* WordleMainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleMainMenu.swift; sourceTree = "<group>"; };
+		189AE06827BA69BD00656408 /* DictionaryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryManager.swift; sourceTree = "<group>"; };
+		18AEC82727B7B41100F3F07E /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		18E4797327B2C0DF008EE9FE /* GoogleAdMobAdUnitIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdMobAdUnitIDModel.swift; sourceTree = "<group>"; };
+		18EE82EC27AD9E1100716F17 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		18F772ED27B0EDDF00CC47F7 /* AWSAPIGatewayURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSAPIGatewayURLs.swift; sourceTree = "<group>"; };
+		18F772F127B0EEAD00CC47F7 /* AWSAPIAuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSAPIAuthToken.swift; sourceTree = "<group>"; };
+		18F772F627B0F8E000CC47F7 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		18F772F827B0FA2C00CC47F7 /* GeneralRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRequestManager.swift; sourceTree = "<group>"; };
+		18F772FA27B1064000CC47F7 /* DefaultServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultServerResponse.swift; sourceTree = "<group>"; };
+		18F772FD27B1159800CC47F7 /* SecretWordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretWordModel.swift; sourceTree = "<group>"; };
+		18F772FF27B123F600CC47F7 /* SecretWordFetchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretWordFetchModel.swift; sourceTree = "<group>"; };
+		18F7730127B124D100CC47F7 /* WordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordManager.swift; sourceTree = "<group>"; };
+		38F542145366B38A79A197C4 /* Pods-Juliet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Juliet.release.xcconfig"; path = "Target Support Files/Pods-Juliet/Pods-Juliet.release.xcconfig"; sourceTree = "<group>"; };
+		6414200FBEFB5B4C3990A49A /* Pods-Juliet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Juliet.debug.xcconfig"; path = "Target Support Files/Pods-Juliet/Pods-Juliet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185CAB4227A98109000A902C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDC65EE1F7714EDDC9F9970 /* Pods_Juliet.framework in Frameworks */,
+				1875CDDC27B387A6006B7620 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182CAAA227AE8A28004B3D4F /* Game Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				182CAAA327AE8A7C004B3D4F /* Alert Handler */,
+				182CAAA627AE8CB5004B3D4F /* GameAlertViewController.swift */,
+				182CAAA827AE8D15004B3D4F /* GameAlertSwiftUI.swift */,
+			);
+			path = "Game Alerts";
+			sourceTree = "<group>";
+		};
+		182CAAA327AE8A7C004B3D4F /* Alert Handler */ = {
+			isa = PBXGroup;
+			children = (
+				182CAAA427AE8A8D004B3D4F /* GameAlertHandler.swift */,
+			);
+			path = "Alert Handler";
+			sourceTree = "<group>";
+		};
+		182F1B7C27AAE1890061562C /* Main Game */ = {
+			isa = PBXGroup;
+			children = (
+				185ED01E27AD3173005F85E5 /* WordleGameViewModel.swift */,
+				182F1B8027AAE7580061562C /* WordleGame.swift */,
+			);
+			path = "Main Game";
+			sourceTree = "<group>";
+		};
+		1839E3FF27B4C10C0059987D /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				183C1B7627B6143C00A49C6C /* EnergyStatusView.swift */,
+				1839E40027B4C11E0059987D /* ShopViewController.swift */,
+				1839E40227B4C18A0059987D /* ShopSwiftUIView.swift */,
+				1839E40427B4C4670059987D /* ShopSwiftUIViewModel.swift */,
+				1839E40C27B55F850059987D /* ShopViewControllerExtensions.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		183C1B7A27B6386B00A49C6C /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				188FF66727AA49B70005DF48 /* WordleMainMenu.swift */,
+				183C1B7B27B6388700A49C6C /* WordleMainMenuViewModel.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		183C1B7F27B6A9A600A49C6C /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				1875CDDE27B38914006B7620 /* IAPManager.swift */,
+				1800077A27B40E4A00A46DB8 /* StoreObserver.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		184BB5C827AF9587000AF770 /* Game Over */ = {
+			isa = PBXGroup;
+			children = (
+				184BB5C927AF959B000AF770 /* Game Over Handler */,
+				184BB5CE27AF96C4000AF770 /* GameOverSwiftUIView.swift */,
+				184BB5D027AF96E8000AF770 /* GameOverViewController.swift */,
+				18037DA627B0174F007673F1 /* GameOverViewControllerExtensions.swift */,
+			);
+			path = "Game Over";
+			sourceTree = "<group>";
+		};
+		184BB5C927AF959B000AF770 /* Game Over Handler */ = {
+			isa = PBXGroup;
+			children = (
+				184BB5CA27AF966C000AF770 /* GameOverHandler.swift */,
+				18037DA827B01941007673F1 /* GameOverHandlerExtensions.swift */,
+			);
+			path = "Game Over Handler";
+			sourceTree = "<group>";
+		};
+		185223CF27ABDFAC005EEE91 /* Pause Menu */ = {
+			isa = PBXGroup;
+			children = (
+				185ED01127ACDA41005F85E5 /* Pause Handler */,
+				185ED00F27ACD70C005F85E5 /* GamePauseViewControllerExtensions.swift */,
+				18681AB227B8D9AA0057B9C0 /* GamePauseAndGameOverViewModel.swift */,
+				185223D627AC15DF005EEE91 /* GamePauseViewController.swift */,
+				185223D827AC3119005EEE91 /* GamePauseSwiftUI.swift */,
+			);
+			path = "Pause Menu";
+			sourceTree = "<group>";
+		};
+		18579AC227AA5E44006CDA60 /* Lottie JSON */ = {
+			isa = PBXGroup;
+			children = (
+				18579AC727AA63C2006CDA60 /* puzzle.json */,
+				184BB5D327AFB967000AF770 /* correct.json */,
+				184BB5D227AFB967000AF770 /* wrong.json */,
+				1839E40A27B5434C0059987D /* young.json */,
+				18579AD327AA804E006CDA60 /* mail.json */,
+				18037DA427B0095F007673F1 /* social.json */,
+				185223D227ABE738005EEE91 /* restart.json */,
+				18037DA227B0088B007673F1 /* dice.json */,
+				185223E227AC3F95005EEE91 /* playLoad.json */,
+				1839E40627B4E7620059987D /* lightning.json */,
+				185223DE27AC3E2A005EEE91 /* play.json */,
+				185223DC27AC3B0F005EEE91 /* home.json */,
+				18579AD527AA83C9006CDA60 /* think.json */,
+				18579AD127AA7F9D006CDA60 /* boyStudy.json */,
+				18579ACF27AA7EFD006CDA60 /* owl.json */,
+				18579AC327AA5E57006CDA60 /* gift.json */,
+			);
+			path = "Lottie JSON";
+			sourceTree = "<group>";
+		};
+		185CAB3C27A98109000A902C = {
+			isa = PBXGroup;
+			children = (
+				185CAB4727A98109000A902C /* Juliet */,
+				185CAB4627A98109000A902C /* Products */,
+				F23C3674A0BCB9324DCE91E1 /* Pods */,
+				F4703E0541B3842CADBDD8FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185CAB4627A98109000A902C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185CAB4527A98109000A902C /* Juliet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185CAB4727A98109000A902C /* Juliet */ = {
+			isa = PBXGroup;
+			children = (
+				181D995627BB55DA0067093E /* Juliet.entitlements */,
+				1875CDDD27B388CD006B7620 /* Apple API Interaction */,
+				18F772EB27B0ED6500CC47F7 /* Networking */,
+				186B21F627AF79BB00C5796D /* Raw Data */,
+				185ED01A27ACF716005F85E5 /* Models */,
+				188FF65F27AA3A170005DF48 /* Supporting Files */,
+				185CAB4827A98109000A902C /* AppDelegate.swift */,
+				185CAB4A27A98109000A902C /* SceneDelegate.swift */,
+				185CAB4C27A98109000A902C /* ViewController.swift */,
+				188FF66227AA47110005DF48 /* Views */,
+				185CAB5C27A9845A000A902C /* MainTabBarViewController.swift */,
+				185CAB5127A9810B000A902C /* Assets.xcassets */,
+				185CAB5327A9810B000A902C /* LaunchScreen.storyboard */,
+				185CAB5627A9810B000A902C /* Info.plist */,
+			);
+			path = Juliet;
+			sourceTree = "<group>";
+		};
+		185ED01127ACDA41005F85E5 /* Pause Handler */ = {
+			isa = PBXGroup;
+			children = (
+				185223CA27ABD5DE005EEE91 /* GamePauseHandler.swift */,
+				185ED01227ACDA55005F85E5 /* GamePauseHandlerExtensions.swift */,
+			);
+			path = "Pause Handler";
+			sourceTree = "<group>";
+		};
+		185ED01427ACDECA005F85E5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				184BB5C827AF9587000AF770 /* Game Over */,
+				182CAAA227AE8A28004B3D4F /* Game Alerts */,
+				185223CF27ABDFAC005EEE91 /* Pause Menu */,
+				182F1B7C27AAE1890061562C /* Main Game */,
+				182F1B7D27AAE1C90061562C /* GameViewController.swift */,
+				185223CC27ABD79F005EEE91 /* GameViewControllerExtensions.swift */,
+				1875CDD927B37582006B7620 /* GameViewControllerGoogleAdExtensions.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		185ED01A27ACF716005F85E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18F772FD27B1159800CC47F7 /* SecretWordModel.swift */,
+				182CAAAA27AE978B004B3D4F /* GameAlertModel.swift */,
+				185ED01B27ACF723005F85E5 /* Alphabets.swift */,
+				186B21F427AF76F400C5796D /* AllowedWordsModel.swift */,
+				184BB5D627AFBEDE000AF770 /* WordTempModel.swift */,
+				18E4797327B2C0DF008EE9FE /* GoogleAdMobAdUnitIDModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		186B21F627AF79BB00C5796D /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				184BB5C627AF850B000AF770 /* allowedWords.txt */,
+				18579AC227AA5E44006CDA60 /* Lottie JSON */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
+		1875CDDD27B388CD006B7620 /* Apple API Interaction */ = {
+			isa = PBXGroup;
+			children = (
+				183C1B7F27B6A9A600A49C6C /* IAP */,
+			);
+			path = "Apple API Interaction";
+			sourceTree = "<group>";
+		};
+		188FF65F27AA3A170005DF48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188FF66027AA3A2E0005DF48 /* CustomColors.swift */,
+				18EE82EC27AD9E1100716F17 /* ArrayExtensions.swift */,
+				183C1B7D27B64B7C00A49C6C /* IntExtensions.swift */,
+				183C1B8227B6B07900A49C6C /* Reachability.swift */,
+				18681ABF27B8F0120057B9C0 /* NotificationExtensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188FF66227AA47110005DF48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1839E3FF27B4C10C0059987D /* Shop */,
+				185ED01427ACDECA005F85E5 /* Game */,
+				18579AC527AA60BB006CDA60 /* LottieView.swift */,
+				188FF66327AA47EA0005DF48 /* Menu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		188FF66327AA47EA0005DF48 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				183C1B7A27B6386B00A49C6C /* SwiftUI */,
+				185CAB5E27A98965000A902C /* WordleViewController.swift */,
+				182F1B7A27AAD66A0061562C /* WordleViewControllerExtensions.swift */,
+				183C1B8527B6D74900A49C6C /* WordleViewControllerAdMobExtensions.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		18F772EB27B0ED6500CC47F7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18F772F527B0F85500CC47F7 /* Request Manager */,
+				18F772EC27B0EDC500CC47F7 /* Server Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18F772EC27B0EDC500CC47F7 /* Server Models */ = {
+			isa = PBXGroup;
+			children = (
+				18F772F027B0EE8F00CC47F7 /* APIGateway Data */,
+				18F772EF27B0EE6E00CC47F7 /* Response Models */,
+			);
+			path = "Server Models";
+			sourceTree = "<group>";
+		};
+		18F772EF27B0EE6E00CC47F7 /* Response Models */ = {
+			isa = PBXGroup;
+			children = (
+				18F772FA27B1064000CC47F7 /* DefaultServerResponse.swift */,
+				18F772FF27B123F600CC47F7 /* SecretWordFetchModel.swift */,
+				18681AC127B8FB4F0057B9C0 /* IAPManagerResponses.swift */,
+				1870CE5D27BAC5B1007DB47E /* UserWinsResponse.swift */,
+				1836AB7127BB40D400044EB2 /* StartNewGameSessionResponse.swift */,
+			);
+			path = "Response Models";
+			sourceTree = "<group>";
+		};
+		18F772F027B0EE8F00CC47F7 /* APIGateway Data */ = {
+			isa = PBXGroup;
+			children = (
+				18F772ED27B0EDDF00CC47F7 /* AWSAPIGatewayURLs.swift */,
+				18F772F127B0EEAD00CC47F7 /* AWSAPIAuthToken.swift */,
+			);
+			path = "APIGateway Data";
+			sourceTree = "<group>";
+		};
+		18F772F527B0F85500CC47F7 /* Request Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18F7730127B124D100CC47F7 /* WordManager.swift */,
+				18F772F627B0F8E000CC47F7 /* AuthenticationManager.swift */,
+				18F772F827B0FA2C00CC47F7 /* GeneralRequestManager.swift */,
+				183C1B7827B633E800A49C6C /* UserSessionManager.swift */,
+				18AEC82727B7B41100F3F07E /* AdManager.swift */,
+				189AE06827BA69BD00656408 /* DictionaryManager.swift */,
+			);
+			path = "Request Manager";
+			sourceTree = "<group>";
+		};
+		F23C3674A0BCB9324DCE91E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6414200FBEFB5B4C3990A49A /* Pods-Juliet.debug.xcconfig */,
+				38F542145366B38A79A197C4 /* Pods-Juliet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4703E0541B3842CADBDD8FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1875CDDB27B387A6006B7620 /* StoreKit.framework */,
+				155D8CA2BC0BD317416C15E5 /* Pods_Juliet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185CAB4427A98109000A902C /* Juliet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185CAB5927A9810B000A902C /* Build configuration list for PBXNativeTarget "Juliet" */;
+			buildPhases = (
+				E527971EB1E64663878E3420 /* [CP] Check Pods Manifest.lock */,
+				185CAB4127A98109000A902C /* Sources */,
+				185CAB4227A98109000A902C /* Frameworks */,
+				185CAB4327A98109000A902C /* Resources */,
+				76164B976BAE72DE4B88B731 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juliet;
+			productName = Juliet;
+			productReference = 185CAB4527A98109000A902C /* Juliet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185CAB3D27A98109000A902C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					185CAB4427A98109000A902C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 185CAB4027A98109000A902C /* Build configuration list for PBXProject "Juliet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185CAB3C27A98109000A902C;
+			productRefGroup = 185CAB4627A98109000A902C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185CAB4427A98109000A902C /* Juliet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185CAB4327A98109000A902C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185223DD27AC3B0F005EEE91 /* home.json in Resources */,
+				18579AD627AA83C9006CDA60 /* think.json in Resources */,
+				184BB5D527AFB967000AF770 /* correct.json in Resources */,
+				185CAB5527A9810B000A902C /* LaunchScreen.storyboard in Resources */,
+				184BB5D427AFB967000AF770 /* wrong.json in Resources */,
+				18579AC827AA63C2006CDA60 /* puzzle.json in Resources */,
+				18037DA527B0095F007673F1 /* social.json in Resources */,
+				18037DA327B0088C007673F1 /* dice.json in Resources */,
+				184BB5C727AF850B000AF770 /* allowedWords.txt in Resources */,
+				18579AD027AA7EFD006CDA60 /* owl.json in Resources */,
+				18579AD427AA804E006CDA60 /* mail.json in Resources */,
+				18579AC427AA5E57006CDA60 /* gift.json in Resources */,
+				185223D327ABE738005EEE91 /* restart.json in Resources */,
+				18579AD227AA7F9D006CDA60 /* boyStudy.json in Resources */,
+				185CAB5227A9810B000A902C /* Assets.xcassets in Resources */,
+				185223DF27AC3E2A005EEE91 /* play.json in Resources */,
+				1839E40B27B5434C0059987D /* young.json in Resources */,
+				1839E40727B4E7620059987D /* lightning.json in Resources */,
+				185223E327AC3F95005EEE91 /* playLoad.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76164B976BAE72DE4B88B731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Juliet/Pods-Juliet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Juliet/Pods-Juliet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Juliet/Pods-Juliet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E527971EB1E64663878E3420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Juliet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185CAB4127A98109000A902C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18681AC227B8FB4F0057B9C0 /* IAPManagerResponses.swift in Sources */,
+				182F1B7E27AAE1C90061562C /* GameViewController.swift in Sources */,
+				185CAB5F27A98965000A902C /* WordleViewController.swift in Sources */,
+				183C1B7E27B64B7C00A49C6C /* IntExtensions.swift in Sources */,
+				185CAB4D27A98109000A902C /* ViewController.swift in Sources */,
+				185223D727AC15DF005EEE91 /* GamePauseViewController.swift in Sources */,
+				18EE82ED27AD9E1100716F17 /* ArrayExtensions.swift in Sources */,
+				18037DA727B0174F007673F1 /* GameOverViewControllerExtensions.swift in Sources */,
+				185223D927AC3119005EEE91 /* GamePauseSwiftUI.swift in Sources */,
+				185223CB27ABD5DE005EEE91 /* GamePauseHandler.swift in Sources */,
+				183C1B8627B6D74900A49C6C /* WordleViewControllerAdMobExtensions.swift in Sources */,
+				18579AC627AA60BB006CDA60 /* LottieView.swift in Sources */,
+				184BB5CF27AF96C4000AF770 /* GameOverSwiftUIView.swift in Sources */,
+				185ED01F27AD3173005F85E5 /* WordleGameViewModel.swift in Sources */,
+				18E4797427B2C0DF008EE9FE /* GoogleAdMobAdUnitIDModel.swift in Sources */,
+				185ED01327ACDA55005F85E5 /* GamePauseHandlerExtensions.swift in Sources */,
+				18F772F927B0FA2C00CC47F7 /* GeneralRequestManager.swift in Sources */,
+				182CAAA927AE8D15004B3D4F /* GameAlertSwiftUI.swift in Sources */,
+				18AEC82827B7B41100F3F07E /* AdManager.swift in Sources */,
+				185CAB5D27A9845A000A902C /* MainTabBarViewController.swift in Sources */,
+				1839E40D27B55F850059987D /* ShopViewControllerExtensions.swift in Sources */,
+				184BB5D127AF96E8000AF770 /* GameOverViewController.swift in Sources */,
+				182CAAA527AE8A8D004B3D4F /* GameAlertHandler.swift in Sources */,
+				185ED01C27ACF723005F85E5 /* Alphabets.swift in Sources */,
+				182F1B7B27AAD66A0061562C /* WordleViewControllerExtensions.swift in Sources */,
+				183C1B8327B6B07900A49C6C /* Reachability.swift in Sources */,
+				1870CE5E27BAC5B1007DB47E /* UserWinsResponse.swift in Sources */,
+				183C1B7927B633E800A49C6C /* UserSessionManager.swift in Sources */,
+				185ED01027ACD70C005F85E5 /* GamePauseViewControllerExtensions.swift in Sources */,
+				182F1B8127AAE7580061562C /* WordleGame.swift in Sources */,
+				18F772F727B0F8E000CC47F7 /* AuthenticationManager.swift in Sources */,
+				1875CDDF27B38914006B7620 /* IAPManager.swift in Sources */,
+				182CAAAB27AE978B004B3D4F /* GameAlertModel.swift in Sources */,
+				189AE06927BA69BD00656408 /* DictionaryManager.swift in Sources */,
+				18681AB327B8D9AA0057B9C0 /* GamePauseAndGameOverViewModel.swift in Sources */,
+				186B21F527AF76F400C5796D /* AllowedWordsModel.swift in Sources */,
+				182CAAA727AE8CB5004B3D4F /* GameAlertViewController.swift in Sources */,
+				18F7730027B123F600CC47F7 /* SecretWordFetchModel.swift in Sources */,
+				18F772FB27B1064000CC47F7 /* DefaultServerResponse.swift in Sources */,
+				18F772FE27B1159800CC47F7 /* SecretWordModel.swift in Sources */,
+				1875CDDA27B37582006B7620 /* GameViewControllerGoogleAdExtensions.swift in Sources */,
+				185CAB4927A98109000A902C /* AppDelegate.swift in Sources */,
+				183C1B7C27B6388700A49C6C /* WordleMainMenuViewModel.swift in Sources */,
+				188FF66127AA3A2F0005DF48 /* CustomColors.swift in Sources */,
+				188FF66827AA49B70005DF48 /* WordleMainMenu.swift in Sources */,
+				183C1B7727B6143C00A49C6C /* EnergyStatusView.swift in Sources */,
+				184BB5CB27AF966C000AF770 /* GameOverHandler.swift in Sources */,
+				185223CD27ABD79F005EEE91 /* GameViewControllerExtensions.swift in Sources */,
+				18037DA927B01941007673F1 /* GameOverHandlerExtensions.swift in Sources */,
+				18681AC027B8F0120057B9C0 /* NotificationExtensions.swift in Sources */,
+				1839E40527B4C4670059987D /* ShopSwiftUIViewModel.swift in Sources */,
+				1836AB7227BB40D400044EB2 /* StartNewGameSessionResponse.swift in Sources */,
+				18F772F227B0EEAD00CC47F7 /* AWSAPIAuthToken.swift in Sources */,
+				18F772EE27B0EDDF00CC47F7 /* AWSAPIGatewayURLs.swift in Sources */,
+				1800077B27B40E4A00A46DB8 /* StoreObserver.swift in Sources */,
+				18F7730227B124D100CC47F7 /* WordManager.swift in Sources */,
+				184BB5D727AFBEDE000AF770 /* WordTempModel.swift in Sources */,
+				1839E40327B4C18A0059987D /* ShopSwiftUIView.swift in Sources */,
+				1839E40127B4C11E0059987D /* ShopViewController.swift in Sources */,
+				185CAB4B27A98109000A902C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185CAB5327A9810B000A902C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185CAB5427A9810B000A902C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185CAB5727A9810B000A902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185CAB5827A9810B000A902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185CAB5A27A9810B000A902C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6414200FBEFB5B4C3990A49A /* Pods-Juliet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Juliet/Juliet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG985K6YZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Juliet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Word Dealer - 5 Letter Puzzle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Juliet.UIKit.Feb.One.2022.Juliet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		185CAB5B27A9810B000A902C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F542145366B38A79A197C4 /* Pods-Juliet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Juliet/Juliet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DG985K6YZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Juliet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Word Dealer - 5 Letter Puzzle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Juliet.UIKit.Feb.One.2022.Juliet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185CAB4027A98109000A902C /* Build configuration list for PBXProject "Juliet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CAB5727A9810B000A902C /* Debug */,
+				185CAB5827A9810B000A902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185CAB5927A9810B000A902C /* Build configuration list for PBXNativeTarget "Juliet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185CAB5A27A9810B000A902C /* Debug */,
+				185CAB5B27A9810B000A902C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185CAB3D27A98109000A902C /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Juliet {
+  umbrella header "Pods-Juliet-umbrella.h"
+
+  export *
+  module * { export * }
+}

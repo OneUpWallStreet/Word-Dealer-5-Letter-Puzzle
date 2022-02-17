@@ -1,0 +1,430 @@
+[
+	{
+		"word": "light",
+		"phonetic": "lʌɪt",
+		"phonetics": [
+			{
+				"text": "lʌɪt",
+				"audio": "//ssl.gstatic.com/dictionary/static/sounds/20200429/light--_gb_1.mp3"
+			}
+		],
+		"origin": "Old English lēoht, līht (noun and adjective), līhtan (verb), of Germanic origin; related to Dutch licht and German Licht, from an Indo-European root shared by Greek leukos ‘white’ and Latin lux ‘light’.",
+		"meanings": [
+			{
+				"partOfSpeech": "noun",
+				"definitions": [
+					{
+						"definition": "the natural agent that stimulates sight and makes things visible.",
+						"example": "the light of the sun",
+						"synonyms": [
+							"illumination",
+							"brightness",
+							"luminescence",
+							"luminosity",
+							"shining",
+							"gleaming",
+							"gleam",
+							"brilliance",
+							"radiance",
+							"lustre",
+							"glowing",
+							"glow",
+							"blaze",
+							"glare",
+							"dazzle",
+							"incandescence",
+							"phosphorescence",
+							"sunlight",
+							"moonlight",
+							"starlight",
+							"lamplight",
+							"firelight",
+							"electric light",
+							"gaslight",
+							"ray of light",
+							"shaft of light",
+							"beam of light",
+							"effulgence",
+							"refulgence",
+							"lambency",
+							"fulguration",
+							"daylight",
+							"light of day",
+							"natural light",
+							"daylight hours",
+							"daytime",
+							"day",
+							"hours of sunlight"
+						],
+						"antonyms": [
+							"darkness",
+							"night-time"
+						]
+					},
+					{
+						"definition": "an expression in someone's eyes indicating a particular emotion or mood.",
+						"example": "a shrewd light entered his eyes",
+						"synonyms": [],
+						"antonyms": []
+					},
+					{
+						"definition": "understanding of a problem or mystery; enlightenment.",
+						"example": "she saw light dawn on the woman's face",
+						"synonyms": [
+							"aspect",
+							"angle",
+							"slant",
+							"approach",
+							"interpretation",
+							"viewpoint",
+							"standpoint",
+							"context",
+							"point of view",
+							"vantage point",
+							"appearance",
+							"guise",
+							"hue",
+							"complexion",
+							"understanding",
+							"enlightenment",
+							"illumination",
+							"comprehension",
+							"insight",
+							"awareness",
+							"knowledge",
+							"elucidation",
+							"explanation",
+							"clarification",
+							"edification"
+						],
+						"antonyms": [
+							"ignorance"
+						]
+					},
+					{
+						"definition": "an area of something that is brighter or paler than its surroundings.",
+						"example": "sunshine will brighten the natural lights in your hair",
+						"synonyms": [],
+						"antonyms": []
+					},
+					{
+						"definition": "a device used to produce a flame or spark.",
+						"example": "he asked me for a light",
+						"synonyms": [
+							"match",
+							"(cigarette) lighter",
+							"flame",
+							"spark",
+							"source of fire"
+						],
+						"antonyms": []
+					},
+					{
+						"definition": "a window or opening to let light in.",
+						"example": "the bedroom has a wide bay with leaded lights",
+						"synonyms": [],
+						"antonyms": []
+					},
+					{
+						"definition": "a person eminent in a particular sphere of activity.",
+						"example": "volunteers have been the shining lights of the community",
+						"synonyms": [
+							"expert",
+							"authority",
+							"master",
+							"leader",
+							"guru",
+							"leading light",
+							"guiding light",
+							"luminary",
+							"celebrity",
+							"dignitary",
+							"public figure",
+							"worthy",
+							"VIP",
+							"big name",
+							"star",
+							"bigwig",
+							"big gun",
+							"big shot",
+							"big noise",
+							"celeb"
+						],
+						"antonyms": []
+					},
+					{
+						"definition": "(in a crossword puzzle) a blank space to be filled by a letter.",
+						"synonyms": [],
+						"antonyms": []
+					}
+				]
+			},
+			{
+				"partOfSpeech": "verb",
+				"definitions": [
+					{
+						"definition": "provide with light or lighting; illuminate.",
+						"example": "the room was lit by a number of small lamps",
+						"synonyms": [],
+						"antonyms": []
+					},
+					{
+						"definition": "make (something) start burning; ignite.",
+						"example": "Allen gathered sticks and lit a fire",
+						"synonyms": [
+							"set alight",
+							"set light to",
+							"set burning",
+							"set on fire",
+							"set fire to",
+							"put/set a match to",
+							"ignite",
+							"kindle",
+							"burn",
+							"spark (off)",
+							"fire",
+							"touch off",
+							"start",
+							"torch",
+							"enkindle"
+						],
+						"antonyms": [
+							"extinguish",
+							"put out"
+						]
+					}
+				]
+			},
+			{
+				"partOfSpeech": "adjective",
+				"definitions": [
+					{
+						"definition": "having a considerable or sufficient amount of natural light; not dark.",
+						"example": "the bedrooms are light and airy",
+						"synonyms": [
+							"bright",
+							"full of light",
+							"well lit",
+							"well lighted",
+							"well illuminated",
+							"sunny",
+							"sunshiny",
+							"undimmed",
+							"brilliant"
+						],
+						"antonyms": [
+							"dark",
+							"gloomy"
+						]
+					},
+					{
+						"definition": "(of a colour) pale.",
+						"example": "her eyes were light blue",
+						"synonyms": [
+							"light-coloured",
+							"light-toned",
+							"pale",
+							"pale-coloured",
+							"pastel",
+							"pastel-coloured",
+							"whitish",
+							"faded",
+							"faint",
+							"weak",
+							"bleached",
+							"fair",
+							"blonde",
+							"golden",
+							"flaxen",
+							"yellow"
+						],
+						"antonyms": [
+							"dark",
+							"brunette"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"word": "light",
+		"phonetic": "lʌɪt",
+		"phonetics": [
+			{
+				"text": "lʌɪt",
+				"audio": "//ssl.gstatic.com/dictionary/static/sounds/20200429/light--_gb_1.mp3"
+			}
+		],
+		"origin": "Old English lēocht, līht (noun), lēohte (adverb), of Germanic origin; related to Dutch licht and German leicht, from an Indo-European root shared by lung.",
+		"meanings": [
+			{
+				"partOfSpeech": "adjective",
+				"definitions": [
+					{
+						"definition": "of little weight; not heavy.",
+						"example": "they are very light and portable",
+						"synonyms": [
+							"easy to lift",
+							"not heavy",
+							"weighing very little",
+							"lightweight",
+							"easy to carry",
+							"portable",
+							"transportable",
+							"weightless",
+							"insubstantial",
+							"airy"
+						],
+						"antonyms": [
+							"heavy"
+						]
+					},
+					{
+						"definition": "not strongly or heavily built or made.",
+						"example": "light, impractical clothes",
+						"synonyms": [
+							"flimsy",
+							"lightweight",
+							"insubstantial",
+							"thin",
+							"delicate",
+							"floaty",
+							"gauzy",
+							"sheer",
+							"gossamer",
+							"diaphanous",
+							"transparent",
+							"translucent",
+							"see-through"
+						],
+						"antonyms": [
+							"heavy",
+							"thick"
+						]
+					},
+					{
+						"definition": "relatively low in density, amount, or intensity.",
+						"example": "passenger traffic was light",
+						"synonyms": [],
+						"antonyms": []
+					},
+					{
+						"definition": "(of food or a meal) small in quantity and easy to digest.",
+						"example": "a light supper",
+						"synonyms": [
+							"small",
+							"modest",
+							"scanty",
+							"simple",
+							"skimpy",
+							"frugal",
+							"not heavy",
+							"not rich",
+							"not large",
+							"easily digested",
+							"digestible"
+						],
+						"antonyms": [
+							"heavy",
+							"rich"
+						]
+					},
+					{
+						"definition": "gentle or delicate.",
+						"example": "she planted a light kiss on his cheek",
+						"synonyms": [
+							"gentle",
+							"delicate",
+							"soft",
+							"dainty",
+							"graceful",
+							"faint",
+							"indistinct"
+						],
+						"antonyms": [
+							"heavy"
+						]
+					},
+					{
+						"definition": "(of entertainment) requiring little mental effort; not profound or serious.",
+						"example": "pop is thought of as light entertainment",
+						"synonyms": [
+							"entertaining",
+							"lightweight",
+							"diverting",
+							"recreative",
+							"undemanding",
+							"easily understood",
+							"middle-of-the-road",
+							"amusing",
+							"humorous",
+							"funny",
+							"chucklesome",
+							"witty",
+							"light-hearted",
+							"frivolous",
+							"unserious",
+							"superficial",
+							"trivial",
+							"trifling"
+						],
+						"antonyms": [
+							"serious",
+							"deep"
+						]
+					},
+					{
+						"definition": "(of a woman) having many casual sexual encounters or relationships.",
+						"synonyms": [],
+						"antonyms": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"word": "light",
+		"phonetic": "lʌɪt",
+		"phonetics": [
+			{
+				"text": "lʌɪt",
+				"audio": "//ssl.gstatic.com/dictionary/static/sounds/20200429/light--_gb_1.mp3"
+			}
+		],
+		"origin": "Old English līhtan (in light3 (sense 2); also ‘lessen the weight of’), from light2; compare with alight1.",
+		"meanings": [
+			{
+				"partOfSpeech": "verb",
+				"definitions": [
+					{
+						"definition": "come upon or discover by chance.",
+						"example": "he lit on a possible solution",
+						"synonyms": [
+							"come across",
+							"chance on",
+							"hit on",
+							"happen on",
+							"stumble on/across",
+							"blunder on",
+							"find",
+							"discover",
+							"uncover",
+							"arrive at",
+							"encounter",
+							"think of",
+							"come up with"
+						],
+						"antonyms": []
+					},
+					{
+						"definition": "descend.",
+						"example": "from the horse he lit down",
+						"synonyms": [],
+						"antonyms": []
+					}
+				]
+			}
+		]
+	}
+]
